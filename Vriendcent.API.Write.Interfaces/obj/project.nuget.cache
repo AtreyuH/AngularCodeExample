@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6HuR2xi4k+p8II0Nc8KeIpu+lapLHbbVccXl5Rolm5n5r1gUsZfOr4WRC3gfmZRE5OUIHESYFNpucXx+6deEsw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\haesevat\\source\\repos\\AtreyuH\\AngularCodeExample\\Doitto\\Vriendcent.API.Write.Interfaces\\Vriendcent.API.Write.Interfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\haesevat\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\haesevat\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

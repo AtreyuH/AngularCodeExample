@@ -1,0 +1,23 @@
+<div class="wrapper">
+  <span class="header">Doitto</span>
+  <div class="actions">
+    <!-- possible component -->
+  </div>
+  <div class="profile clickable" *ngIf="{ currentUser: currentUser$ | async } as userObs" #profile>
+    <div class="profile-info">
+      <img
+      class="profile-picture"
+      src="{{ userObs.currentUser.profilePictureUrl }}"
+    />
+    <span class="profile-name"
+      >{{ userObs.currentUser.firstName }}
+      {{ userObs.currentUser.lastName }}</span
+    >
+    </div>
+    <ul class="profile-menu clickable">
+      <li>Log Out</li>
+      <li [routerLink]="['/profile']">Settings</li>
+    </ul>
+  </div>
+</div>
+

@@ -1,0 +1,12 @@
+<div class="wrapper" [class.collapsed]="minimized">
+  <div class="content-wrapper">
+    <div class="view-wrapper">
+      <app-side-bar-orchestrator></app-side-bar-orchestrator>
+    </div>
+    <span class="minimize clickable" (click)="onToggleMinimized()"><i class="fas fa-angle-left"></i></span>
+    </div>
+    <div class="maximize-wrapper clickable" [class.hidden]="!minimized">
+      <i class="fas fa-angle-right" (click)="onToggleMinimized()"></i>
+    </div>
+</div>
+

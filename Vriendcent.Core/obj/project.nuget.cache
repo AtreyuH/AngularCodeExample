@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GzPOauCNDyWvrbUER7lFXFtSmj+5TM4B5MFfeJywWtZKGwMxngziUjqQW5Z4G3kDDcVyVKw2MOlDIPl9wBDiKg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\haesevat\\source\\repos\\AtreyuH\\AngularCodeExample\\Doitto\\Vriendcent.Core\\Vriendcent.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\haesevat\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\haesevat\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

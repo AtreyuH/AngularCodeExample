@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Vriendcent.API_Read</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vriendcent.API.Read.Interfaces\Vriendcent.API.Read.Interfaces.csproj" />
+    <ProjectReference Include="..\Vriendcent.CQRS\Vriendcent.CQRS.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ModelBuilders\" />
+  </ItemGroup>
+
+</Project>
